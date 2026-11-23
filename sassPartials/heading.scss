@@ -1,0 +1,16 @@
+@use "base";
+
+$h1color:#671;
+$txtalign: center;
+$txttrans: uppercase;
+$fontsize: 40px;
+$textdecor: underline;
+
+#header{
+    color: $h1color;
+    text-align: $txtalign;
+    font-size: $fontsize;
+    text-decoration: $textdecor;
+    text-transform: $txttrans;
+    
+}

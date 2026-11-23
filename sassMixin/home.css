@@ -1,0 +1,37 @@
+body {
+  background-color: #afc123;
+  font-family: cursive;
+  font-size: 30px;
+  color: rgba(17, 34, 51, 0.2666666667);
+  text-align: center;
+}
+body h1 {
+  background-color: red;
+  font-family: cursive;
+  font-size: 50px;
+  color: gold;
+  text-align: center;
+}
+body p {
+  margin: 15px;
+  padding: 30px;
+  color: #f9f9fa;
+  font-size: 15px;
+  text-align: justify;
+}
+body h2 {
+  background-color: firebrick;
+  font-family: cursive;
+  font-size: 70px;
+  color: blue;
+  text-align: center;
+}
+body #par {
+  margin: 25px;
+  padding: 30px;
+  color: grey;
+  font-size: 20px;
+  text-align: justify;
+}
+
+/*# sourceMappingURL=home.css.map */

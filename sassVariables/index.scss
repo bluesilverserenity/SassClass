@@ -1,0 +1,18 @@
+$greencolor: green;
+$cursivefontfam: cursive;
+$bgcolor: firebrick;
+$parcolor: #ff561345;
+$divwidth : 200px;
+$divheight :200px;
+body{
+    background: $bgcolor;
+    font: $cursivefontfam;
+}
+
+h1{
+    color: $greencolor;
+}
+p{
+    color: $parcolor;
+}
+

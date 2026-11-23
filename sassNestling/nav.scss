@@ -1,0 +1,29 @@
+$navmargin: 0;
+$navpadding: 0;
+.container{
+    background-color: #345acd;
+    margin: $navmargin;
+    padding: $navpadding;
+    nav{
+        ul{
+            margin: $navmargin;
+            padding: $navpadding;
+            list-style-type: none;
+            
+            li{
+                display: inline-block;
+
+                font: {
+                    family : helvetica, sans-serif;
+                    size: 18px;
+                    weight: bold;
+                }
+                text: {
+                    align: center;
+                    transform: lowercase;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+}

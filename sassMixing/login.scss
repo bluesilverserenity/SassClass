@@ -1,0 +1,52 @@
+input[type="submit"]{
+    width: 200px;
+    height: 30px;
+    position: relative;
+    left: 10px;
+    border: none;
+    box-shadow: 4px 2px 4px;
+    color: #f1e;
+
+}
+
+input[type="text"],input[type="password"]{
+    display: block;
+    margin: 10px;
+    border: none;
+    width: 200px;
+    height: 30px;
+    justify-self: stretch;
+    padding: 10px;
+}
+
+form{
+    box-shadow: 4px 10px 15px ;
+border-radius: 5px;
+padding: 50px;
+position: relative;
+top: 200px;
+left: 400px;
+width: 200px;
+height: 150px;
+border: 2px solid;
+background: linear-gradient(to right, #f1e, #0e4);
+animation-name: roleform;
+animation-duration: 10s;
+animation-timing-function: ease-out;
+animation-delay: 0;
+animation-iteration-count: 1;
+
+
+}
+
+h2{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+    color: #fff88aca;
+}
+
+form:hover{
+    transform: scale(1.4);
+}

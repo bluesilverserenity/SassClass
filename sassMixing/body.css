@@ -1,0 +1,37 @@
+body {
+  background-color: #afc123;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 300px;
+  color: rgba(17, 34, 51, 0.2666666667);
+  text-align: center;
+}
+body h1 {
+  background-color: red;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 300px;
+  color: gold;
+  text-align: center;
+}
+body p {
+  margin: 15px;
+  padding: 30px;
+  color: rgba(240, 240, 241, 0.137254902);
+  font-size: 15px;
+  text-align: justify;
+}
+body #hey {
+  background-color: #aaffcc;
+  font-family: sans-serif;
+  font-size: 30px;
+  color: #123abc;
+  text-align: center;
+}
+body #par {
+  margin: 15px;
+  padding: 30px;
+  color: #123abc;
+  font-size: 15px;
+  text-align: inherit;
+}
+
+/*# sourceMappingURL=body.css.map */

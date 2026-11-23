@@ -1,0 +1,44 @@
+@mixin header($style : #afc123 , $txtcolor : #1234, ){
+    background-color:$style;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 300px;
+    color: $txtcolor;
+    text-align: center;
+}
+@mixin paragraph(){
+    margin: 15px;
+    padding: 30px;
+    color:#f0f0f123 ;
+    font-size: 15px;
+    text-align: justify
+}
+@mixin text( $style : #aaffcc, $color: #123abc,$fontfam: sans-serif,$fontsize:30px){
+    background-color: $style;
+    font-family:$fontfam;
+    font-size: $fontsize;
+    color: $color;
+    text-align: center
+}
+@mixin para ($color: #123abc){
+    margin: 15px;
+    padding: 30px;
+    color:$color;
+    font-size: 15px;
+    text-align: inherit
+}
+body{
+    @include header;
+    h1{
+        @include header ($style : red , $txtcolor: gold )
+    }
+    p{
+    @include paragraph()
+    }
+    #hey{
+        @include text
+    }
+    #par{
+        @include para
+    }
+
+}

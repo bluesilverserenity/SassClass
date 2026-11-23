@@ -1,0 +1,15 @@
+body {
+  border-color: rgba(51, 86, 122, 0.7294117647);
+  font-family: cursive;
+  color: #fffacd;
+}
+
+#header {
+  color: #671;
+  text-align: center;
+  font-size: 40px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=heading.css.map */
